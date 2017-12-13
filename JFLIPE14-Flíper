@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    setlocale(LC_ALL, "Portuguese");
+
+    int A, B, C, P, R;
+
+    cout << "\n" << "Informe os valores de P e R, sendo eles 1 ou 0:" << "\n";
+
+    cout << "Informe valor de P:";
+    cin >> P;
+
+    cout << "Informe valor de R:";
+    cin >> R;
+
+    if(P==0 && R==0){
+      cout<< "C" << "\n";
+    }
+    if(P==0 && R==1){
+      cout<< "C" << "\n";
+    }
+    if(P==1 && R==1){
+      cout<< "A" << "\n";
+    }
+
+    if(P==1 && R==0){
+      cout<< "B" << "\n";
+    }
+    else
+      cout << "Informe valor de entrada correto" << endl;
+  }
