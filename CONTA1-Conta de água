@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+
+    cin >> a;
+
+    if (a <= 10){
+    cout << 7 << endl;
+    }
+    if (a >= 11 && a <= 30){
+    cout << (((a - 10) * 1) +7) << endl;
+    }
+    if (a >= 31 && a <= 100){
+    cout << (((a - 30) * 2) + 27 ) << endl;
+    }
+    if (a >= 101){
+    cout << (((a - 100) * 5) + 167) << endl;
+    }
+    return 0;
+}
