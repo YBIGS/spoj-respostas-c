@@ -4,9 +4,6 @@ using namespace std;
 int main() {
     int a;
 
-    setlocale(LC_ALL, "Portuguese");
-
-    cout << "\n" << "Informe a nota: ";
     cin >> a;
 
     if (a >= 0 && a <= 100){
@@ -25,7 +22,5 @@ int main() {
       if (a > 85 && a < 101)
         cout << "\n" << "A" << "\n" << endl;
     }
-    else
-      cout << "\n" << "Informe uma nota dentro dos padrões." << "\n" << endl;
-
-    }
+    
+}
