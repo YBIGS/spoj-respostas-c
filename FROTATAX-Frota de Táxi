@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+  float A,G,Ra,Rg;
+
+  cin >> A >> G >> Ra >> Rg;
+
+  if(A/Ra < G/Rg)
+    cout << "A" << "\n";
+
+  else
+    cout << "G" << "\n";
+
+  return 0;
+}
